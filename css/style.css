@@ -1,0 +1,38 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700;900&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+@import url('components/banner.css');
+@import url('components/footer.css');
+@import url('components/hwitwrks.css');
+
+/* Utilities */
+body {
+  background-color: #F5F5F5;
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Lato;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+/*CUSTOM SCROLLBAR*/
+body::-webkit-scrollbar {
+  width: 0.50rem;
+}
+body::-webkit-scrollbar-track{
+  background: #3C3C3C;
+}
+body::-webkit-scrollbar-thumb{
+  background: #E20A48;
+}

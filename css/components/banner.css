@@ -1,0 +1,40 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  box-shadow: 0 0 16px rgba(35, 31, 32, 0.993)
+}
+.banner-data {
+  width: 900px;
+  margin: auto;
+}
+
+.banner h1 {
+  color: #F5F5F5;
+  font-weight: bold;
+  text-shadow: 1px 3px 3px rgba(0,0,0,0.5);
+
+}
+.banner p {
+  color: #F5F5F5;
+  opacity: 1;
+  font-size: 20px;
+  text-shadow: 1px 3px 3px rgba(0,0,0,0.5);
+}
+
+.btn-contact {
+  color: white;
+  display: inline-block;
+  background-color: #E20A48;
+  padding: 16px 36px;
+  border-radius: 50px;
+}
+.btn-contact:hover {
+  background-color: #F5F5F5;
+  color: #E20A48;
+  box-shadow: 0 0 5px #F5F5F5;
+  transition: 0.3s;
+  border: 1px;
+  border-color: #E20A48;
+  box-shadow: 0 0 16px rgba(233, 10, 66, 0.993)
+}

@@ -1,0 +1,22 @@
+.footer {
+  text-align: center;
+  font-weight: bold;
+  padding: 30px;
+  background-color: #1d1c1c;
+  color: #F5F5F5;
+  box-shadow: 0 0 16px rgba(35, 31, 32, 0.993)
+}
+.footer a {
+  font-size: 30px;
+  color: #E20A48;
+  gap: 20px;
+  border-radius: 15px;
+}
+
+.footer a:hover {
+  color: #F5F5F5;
+  transition: 0.3s;
+}
+a {
+  text-decoration: none;
+}
